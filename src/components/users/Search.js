@@ -32,7 +32,7 @@ export class Search extends Component {
 
     return (
       <div>
-        <form className="form" onSubmit={this.onSubmit}>
+        <form className="form" onSubmit={this.onSubmit} >
           <input
             type="text"
             name="text"
